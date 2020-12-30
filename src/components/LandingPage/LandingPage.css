@@ -1,0 +1,50 @@
+.landing-page h1{
+    color: #FFF;
+    width: 65%;
+}
+
+.landing-page p{
+    font-weight: 700;
+}
+
+.landing-page{
+    position: relative;
+    height: calc(100vh - 50px);
+    padding: 0;
+    background-image: url(/src/components/LandingPage/fog-1280.jpg);   
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    z-index: 4;
+}
+
+.landing-page-shadow{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.15);
+}
+
+.landing-page-shadow .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 35%;
+}
+
+.landing-page-btn{
+    padding: 10px 55px;
+    font-weight: 700;
+    border: 3px solid  #FFF;
+    color: #FFF;
+    text-decoration: none;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.landing-page-btn:hover{
+    background-color: #FFF;
+    color: #000;
+}

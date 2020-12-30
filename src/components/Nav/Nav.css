@@ -1,0 +1,74 @@
+nav{
+    background-color: #4E4E4E;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.nav-firma{
+    font-weight: 700;
+    color: #FFF; 
+}
+
+.nav-link{ 
+    display: none;      
+}
+
+.nav-link a{
+    font-weight: 400;   
+    color: #F1F1F1;
+    margin-left: 50px;
+}
+
+.nav-contact{
+    cursor: not-allowed;
+}
+
+.button-scroll-top {
+    display: inline-block;
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: .3s;
+    z-index: 3;
+}
+
+.button-scroll-top:hover {
+    cursor: pointer;
+    background-color: #333;
+    }
+
+.button-scroll-top:active {
+    background-color: #555;
+    }
+
+.button-scroll-top::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    }
+
+@media (min-width: 768px){
+    
+    .nav-link{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
