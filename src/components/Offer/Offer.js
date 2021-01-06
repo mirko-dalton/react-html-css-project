@@ -37,7 +37,7 @@ const offers = [
 
 ]
 
-function Offer() {
+const Offer = () => {
 
     return (
         <section className='offer' id='offer'>

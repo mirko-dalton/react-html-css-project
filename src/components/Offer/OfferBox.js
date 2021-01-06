@@ -1,13 +1,13 @@
 import React from 'react';
 import './OfferBox.css';
 
-function OfferBox({ offerName, isNew }) {
+const OfferBox = ({ offerName, isNew }) => {
 
   let addInfo;
   let addPoint;
 
   if (isNew) {
-    addInfo = '(Nowość)'; 
+    addInfo = '(Nowość)';
     addPoint = (<div className='offer-specialist-point'></div>);
   };
 
