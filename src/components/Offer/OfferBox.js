@@ -7,7 +7,7 @@ const OfferBox = ({ offerName, isNew }) => {
   let addPoint;
 
   if (isNew) {
-    addInfo = '(Nowość)';
+    addInfo = (<span>Nowość</span>);
     addPoint = (<div className='offer-specialist-point'></div>);
   };
 
